@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Hello Github Pages, Jekyll, Octopress"
+date: 2014-03-04 05:44:24 -0500
+comments: true
+categories: General
+---
+
+<p>My site is hosted on <a href="http://pages.github.com">Github Pages</a> and it is powered by <a href="http://octopress.org/">Octopress</a>/<a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p>
+
+<p>Earlier I have used <a href="http://www.wordpress.org">Wordpress</a> and <a href="http://www.blogger.com">Blogger</a> platforms to power my sites/blogs. I am attracted by the prospect of using Octopress/Jekyll/Github due to few factors (which I will explain in a separate post).</p>
+
+<h2>Github Pages</h2>
+<p><a href="http://pages.github.com">Github Pages</a> are public web pages for users, organizations, and repositories, that are freely hosted on GitHub’s github.io domain or on a custom domain name of your choice. GitHub Pages are powered by Jekyll behind the scenes, so in addition to supporting regular HTML content, they’re also a great way to host your Jekyll-powered website for free.</p>
+
+<h2>Jekyll</h2>
+<p><a href="http://jekyllrb.com">Jekyll</a> is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
+
+<h2>Octopress</h2>
+<p><a href="http://octopress.org/">Octopress</a> is a static blogging framework built on top of Jekyll, which makes it much easier to manage Jekyll-powered websites.</p>
+
+<p>I will cover the details of the Octopress setup, Blogging experience and factors for considering Octopress/Github Pages in separate post(s).</p> 
+
+<p>Happy Blogging!</p> 
