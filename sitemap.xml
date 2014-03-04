@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://sadanapalli.github.io/year/03/04/hello-github-pages/</loc>
+        <loc>http://sadanapalli.com/year/03/04/hello-github-pages/</loc>
         <lastmod>2014-03-04T06:27:06-05:00</lastmod>
     </url>
     <url>
-        <loc>http://sadanapalli.github.io/archives/</loc>
+        <loc>http://sadanapalli.com/archives/</loc>
         <lastmod>2014-03-04T06:27:06-05:00</lastmod>
     </url>
     <url>
-        <loc>http://sadanapalli.github.io/</loc>
+        <loc>http://sadanapalli.com/</loc>
         <lastmod>2014-03-04T06:27:06-05:00</lastmod>
     </url>
     <url>
-        <loc>http://sadanapalli.github.io/robots.txt</loc>
+        <loc>http://sadanapalli.com/robots.txt</loc>
         <lastmod>2014-02-27T06:52:33-05:00</lastmod>
     </url>
 </urlset>
