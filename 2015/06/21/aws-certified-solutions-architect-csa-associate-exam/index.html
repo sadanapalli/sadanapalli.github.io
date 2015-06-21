@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Pradeep Sadanapalli</title>
+  <title>AWS Certified Solutions Architect(CSA) - Associate Exam - Pradeep Sadanapalli</title>
   <meta name="author" content="Pradeep Sadanapalli">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://sadanapalli.com">
+  <link rel="canonical" href="http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -64,15 +64,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/">AWS Certified Solutions Architect(CSA) - Associate Exam</a></h1>
+      <h1 class="entry-title">AWS Certified Solutions Architect(CSA) - Associate Exam</h1>
     
     
       <p class="meta">
@@ -90,15 +87,15 @@
 
 <time datetime="2015-06-21T15:13:48-04:00" pubdate data-updated="true">Jun 21<span>st</span>, 2015</time>
         
-           | <a href="/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/#disqus_thread"
-             data-disqus-identifier="http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/">Comments</a>
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://sadanapalli.com">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>AWS offers Training and Certification programs to help you develop skills to design, deploy, and operate your infrastructure and applications on the AWS Cloud. Earning certification helps you gain visibility and credibility for your proven experience working with AWS.</p>
+<div class="entry-content"><p>AWS offers Training and Certification programs to help you develop skills to design, deploy, and operate your infrastructure and applications on the AWS Cloud. Earning certification helps you gain visibility and credibility for your proven experience working with AWS.</p>
 
 <p>Currenlty, AWS offers the below certification exams which are categorized into two-levels &ndash; Associate and Professional.</p>
 
@@ -180,111 +177,16 @@
 
 <p>All the best to you if you are preparing for the AWS exam. Feel free to leave a comment if any questions or feedback.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2014/03/15/table-styling-in-octopress/">Table Styling in Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Pradeep Sadanapalli</span></span>
 
-<time datetime="2014-03-15T19:50:26-04:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
-        
-           | <a href="/2014/03/15/table-styling-in-octopress/#disqus_thread"
-             data-disqus-identifier="http://sadanapalli.com/2014/03/15/table-styling-in-octopress/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It is only around two weeks since I setup my blog using Octopress/Jekyll framework and I am still in learning mode to get better with using Markdown syntax.</p>
-
-<p>Octopress has very minimal table styling by default. I struggled a bit to build tables in a post. Searched in <a href="http://octopress.org/docs/">Octopress documentation</a>, but did not find any info there. My google search for &ldquo;markdown+table+syntax&rdquo; led me to <a href="daringfireball.net/projects/markdown/syntax#html">John Gruber&rsquo;s Markdown Page</a>, where I learnt that HTML block-level tags can be used for any markup that is not covered by Markdown’s syntax.</p>
-
-<p>For example, to add an HTML table between two paragraphs in a post:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'>This is a regular paragraph.
-</span><span class='line'>
-</span><span class='line'><span class="nt">&lt;table&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;tr&gt;</span>
-</span><span class='line'>        <span class="nt">&lt;td&gt;</span>Foo<span class="nt">&lt;/td&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;/tr&gt;</span>
-</span><span class='line'><span class="nt">&lt;/table&gt;</span>
-</span><span class='line'>
-</span><span class='line'>This is another regular paragraph.
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>But, that still did not work. I started searching further to understand it little more and quickly realized that there are many Markdown parsers, of which Maruku, RedCarpet, BlueCloth, RDiscount, Kramdown are some of the popular ones.</p>
-
-<p>Briefly,</p>
-
-<ul>
-<li><code>RDiscount</code> is the default engine used in Octopress; It is implemented in C and is fast, but has limited feature set</li>
-<li><code>Maruku</code> is a Ruby implementation and has extra feature set than RDiscount; But it does not seem to be actively maintained</li>
-<li><code>Kramdown</code> is also a Ruby implementation and faster than Maruku; Kramdown supports extensions such as tables and footnotes</li>
-<li><code>RedCarpet</code> and <code>BlueCloth</code> seem to be actively maintained and popular ones too</li>
-</ul>
-
-
-<p>At this time, I am not in favor of changing my markdown processor from RDiscount just for tables, without further reading and understanding of different markdown parsers. I will try to cover these in a separate post ilater after playing with them a bit further.</p>
-
-<p>To come back to my search on how to use tables in a post, I then landed on <a href="http://samwize.com/2012/09/24/octopress-table-stylesheet/">this blog post</a> which touched on the exact point I was looking for.</p>
-
-<p>As mentioned, I added <a href="https://gist.github.com/programus/1993032#file-data-table-css">data-table.css</a> to <code>source/stylesheets/</code>and inserted the below in <code>source/_includes/head.html</code>.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;/stylesheets/data-table.css&quot;</span> <span class="na">media=</span><span class="s">&quot;screen, projection&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span> <span class="nt">/&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This addresses my need for now.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2014/03/04/hello-github-pages/">Hello Github Pages, Jekyll, Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -296,72 +198,44 @@
   
 
 
-<time datetime="2014-03-04T05:44:24-05:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
-        
-           | <a href="/2014/03/04/hello-github-pages/#disqus_thread"
-             data-disqus-identifier="http://sadanapalli.com/2014/03/04/hello-github-pages/">Comments</a>
-        
-      </p>
+<time datetime="2015-06-21T15:13:48-04:00" pubdate data-updated="true">Jun 21<span>st</span>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/aws/'>AWS</a>, <a class='category' href='/categories/certification/'>Certification</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>My site is hosted on <a href="http://pages.github.com">Github Pages</a> and it is powered by <a href="http://octopress.org/">Octopress</a>/<a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p>
-
-
-
-
-<p>Earlier I have used <a href="http://www.wordpress.org">Wordpress</a> and <a href="http://www.blogger.com">Blogger</a> platforms to power my sites/blogs. I am attracted by the prospect of using Octopress/Jekyll/Github due to few factors (which I will explain in a separate post).</p>
-
-
-
-
-<h2>Github Pages</h2>
-
-
-<p><a href="http://pages.github.com">Github Pages</a> are public web pages for users, organizations, and repositories, that are freely hosted on GitHub’s github.io domain or on a custom domain name of your choice. GitHub Pages are powered by Jekyll behind the scenes, so in addition to supporting regular HTML content, they’re also a great way to host your Jekyll-powered website for free.</p>
-
-
-
-
-<h2>Jekyll</h2>
-
-
-<p><a href="http://jekyllrb.com">Jekyll</a> is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
-
-
-
-
-<h2>Octopress</h2>
-
-
-<p><a href="http://octopress.org/">Octopress</a> is a static blogging framework built on top of Jekyll, which makes it much easier to manage Jekyll-powered websites.</p>
-
-
-
-
-<p>I will cover the details of the Octopress setup, Blogging experience and factors for considering Octopress/Github Pages in separate post(s).</p>
-
-
-<p></p>
-
-<p>Happy Blogging!</p>
-
-
-<p></p>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/" data-via="" data-counturl="http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2014/03/15/table-styling-in-octopress/" title="Previous Post: Table Styling in Octopress">&laquo; Table Styling in Octopress</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -390,6 +264,7 @@
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -404,7 +279,10 @@
       var disqus_shortname = 'sadanapalli';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/';
+        var disqus_url = 'http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

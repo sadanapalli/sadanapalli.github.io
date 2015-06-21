@@ -4,7 +4,7 @@
   <title><![CDATA[Pradeep Sadanapalli]]></title>
   <link href="http://sadanapalli.com/atom.xml" rel="self"/>
   <link href="http://sadanapalli.com/"/>
-  <updated>2015-06-20T21:33:46-04:00</updated>
+  <updated>2015-06-21T15:14:42-04:00</updated>
   <id>http://sadanapalli.com/</id>
   <author>
     <name><![CDATA[Pradeep Sadanapalli]]></name>
@@ -12,6 +12,95 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AWS Certified Solutions Architect(CSA) - Associate Exam]]></title>
+    <link href="http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam/"/>
+    <updated>2015-06-21T15:13:48-04:00</updated>
+    <id>http://sadanapalli.com/2015/06/21/aws-certified-solutions-architect-csa-associate-exam</id>
+    <content type="html"><![CDATA[<p>AWS offers Training and Certification programs to help you develop skills to design, deploy, and operate your infrastructure and applications on the AWS Cloud. Earning certification helps you gain visibility and credibility for your proven experience working with AWS.</p>
+
+<p>Currenlty, AWS offers the below certification exams which are categorized into two-levels &ndash; Associate and Professional.</p>
+
+<p><strong>Associate Level Exams:</strong></p>
+
+<ul>
+<li>AWS Certified Solutions Architect &ndash; Associate</li>
+<li>AWS Certified Developer &ndash; Associate</li>
+<li>AWS Certified SysOps Administrator &ndash; Associate</li>
+</ul>
+
+
+<p><strong>Professional Level Exams:</strong></p>
+
+<ul>
+<li>AWS Certified Solutions Architect &ndash; Professional</li>
+<li>AWS Certified DevOps Engineer &ndash; Professional</li>
+</ul>
+
+
+<blockquote><p>NOTE: A Master-level exam for AWS Certified Solutions Architect is on the roadmap</p></blockquote>
+
+<p>At work, we are aggressively moving towards Public Cloud. As part of those efforts, I have attended the AWS Training on &ldquo;Advanced Architecting on AWS&rdquo; and &ldquo;Systems Operations on AWS&rdquo; 3-day courses. I had decided to take the &ldquo;AWS Certified Solutions Architect&rdquo; exam and gave myself 3-weeks to prepare for it.</p>
+
+<p>I have taken the exam on 06/15/2015 and passed with 85%. The exam had 60 questions to be completed in 80 mins. I found the exam to be very challenging as the exam had mostly all scenario-based questions which tested one&rsquo;s comprehensive knowledge to configure various AWS services to be able to solve different usecases.</p>
+
+<p>What I liked the most about this exam is that it was not like read &amp; memorize some documentation and answer straight-forward questions. Hands-on experience and exposure to almost all of the AWS services are required to be able to face this exam. That &rsquo;s what makes AWS exams challenging and hence desirable to have on one&rsquo;s resume.</p>
+
+<p>Below are some key things to know and practice until comfortable before sitting for the exam.</p>
+
+<ul>
+<li>Configuring a custom VPC and troubleshooting along with Security in VPC</li>
+<li>Pay lot of attention to all aspects VPC..very important</li>
+<li>Private vs Public Subnets, Security Groups vs Network ACLs, NAT instances, Internet Gateway, Storage Gateway, Virtual Private Gateway, Endpoint for S3, Life-cycle policies and Glacier</li>
+<li>Elastic Load Balancer in combination with Auto-scaling</li>
+<li>Different storage options, S3 vs EBS vs Ephemeral, Securing S3 buckets/objects for different scenarios, Encryption, Performance/Durability/Availability</li>
+<li>Read thoroughly on &ldquo;Route 53&rdquo;, I had lot of questions on this</li>
+<li>Different EC2 instance types, EBS Volumes and Snapshots, Some soft limits, Bootstrap scripts, Instance meta data,  placement groups, IP Addresses &amp; ENIs, AMIs, Optimizing I/O performance, Security</li>
+<li>Configuration of Cloud Front</li>
+<li>RDS/DynamoDB/RedShift</li>
+<li>Basics of SWF, SQS, SNS, Cloud Watch, CloudFormation</li>
+<li>IAM Users/Groups/Roles, Groups vs Roles, Policies, Service-based Roles, AD Intagration, Security</li>
+<li>Security, Security, Security</li>
+<li>Practice, Practie, Practice</li>
+</ul>
+
+
+<p>Below are few points that will help towards preparation for the exam.</p>
+
+<ul>
+<li><p><strong>AWS Free Tier</strong></p>
+
+<p>  The <a href="http://aws.amazon.com/free/">AWS Free Tier</a> is designed to enable you to get hands-on experience with AWS at no charge for 12 months after you sign up.</p>
+
+<p>  After creating your AWS account you can use any of the 21 products and services, listed below, for free within certain usage limits.</p></li>
+<li><p>Read all the FAQs at <a href="http://aws.amazon.com/faqs/">http://aws.amazon.com/faqs/</a></p>
+
+<ul>
+<li>After reading through all FAQs couple of times, practice by answering all the questions under FAQs without looking at answers and then compare</li>
+</ul>
+</li>
+<li><p>Read few AWS whitepapers at <a href="http://aws.amazon.com/whitepapers/">http://aws.amazon.com/whitepapers/</a> &ndash; at least the below</p>
+
+<ul>
+<li>  AWS Security Whitepaper</li>
+<li>  AWS Storage Options</li>
+<li>  AWS Amazon VPC Connectivity Options</li>
+<li>  Managing Your AWS Infrastructure at Scale</li>
+</ul>
+</li>
+<li>Take one of the online ondemand courses on &ldquo;AWS Certified Solutions Architect&rdquo; on udemy.com</li>
+<li>Watch AWS re-invent deep dive videos on some key topics</li>
+<li>Read the exam blueprint</li>
+<li>Take the AWS Practice Exam (costs $20) if you feel required</li>
+</ul>
+
+
+<p>Next, I am planning to take the other AWS exams &ndash; Developer, SysOps and CSA Professional. I will share my experience as I complete those exams.</p>
+
+<p>All the best to you if you are preparing for the AWS exam. Feel free to leave a comment if any questions or feedback.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Table Styling in Octopress]]></title>
