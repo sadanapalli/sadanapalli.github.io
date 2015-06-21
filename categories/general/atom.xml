@@ -4,7 +4,7 @@
   <title><![CDATA[Category: General | Pradeep Sadanapalli]]></title>
   <link href="http://sadanapalli.com/categories/general/atom.xml" rel="self"/>
   <link href="http://sadanapalli.com/"/>
-  <updated>2014-03-04T06:45:24-05:00</updated>
+  <updated>2015-06-20T21:33:46-04:00</updated>
   <id>http://sadanapalli.com/</id>
   <author>
     <name><![CDATA[Pradeep Sadanapalli]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello Github Pages, Jekyll, Octopress]]></title>
-    <link href="http://sadanapalli.com/year/03/04/hello-github-pages/"/>
+    <link href="http://sadanapalli.com/2014/03/04/hello-github-pages/"/>
     <updated>2014-03-04T05:44:24-05:00</updated>
-    <id>http://sadanapalli.com/year/03/04/hello-github-pages</id>
+    <id>http://sadanapalli.com/2014/03/04/hello-github-pages</id>
     <content type="html"><![CDATA[<p>My site is hosted on <a href="http://pages.github.com">Github Pages</a> and it is powered by <a href="http://octopress.org/">Octopress</a>/<a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p>
 
 

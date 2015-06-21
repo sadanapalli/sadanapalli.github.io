@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Pradeep Sadanapalli]]></title>
-  <link href="http://sadanapalli.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Pradeep Sadanapalli]]></title>
+  <link href="http://sadanapalli.com/categories/octopress/atom.xml" rel="self"/>
   <link href="http://sadanapalli.com/"/>
   <updated>2015-06-20T21:33:46-04:00</updated>
   <id>http://sadanapalli.com/</id>
@@ -24,7 +24,7 @@
 
 <p>For example, to add an HTML table between two paragraphs in a post:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -33,7 +33,8 @@
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
 <span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'>This is a regular paragraph.
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>This is a regular paragraph.<span class="nt">&lt;/p&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="nt">&lt;table&gt;</span>
 </span><span class='line'>    <span class="nt">&lt;tr&gt;</span>
@@ -41,9 +42,9 @@
 </span><span class='line'>    <span class="nt">&lt;/tr&gt;</span>
 </span><span class='line'><span class="nt">&lt;/table&gt;</span>
 </span><span class='line'>
-</span><span class='line'>This is another regular paragraph.
-</span></code></pre></td></tr></table></div></figure>
-
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>This is another regular paragraph.
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>But, that still did not work. I started searching further to understand it little more and quickly realized that there are many Markdown parsers, of which Maruku, RedCarpet, BlueCloth, RDiscount, Kramdown are some of the popular ones.</p>
 
@@ -63,63 +64,11 @@
 
 <p>As mentioned, I added <a href="https://gist.github.com/programus/1993032#file-data-table-css">data-table.css</a> to <code>source/stylesheets/</code>and inserted the below in <code>source/_includes/head.html</code>.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;/stylesheets/data-table.css&quot;</span> <span class="na">media=</span><span class="s">&quot;screen, projection&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span> <span class="nt">/&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>This addresses my need for now.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Github Pages, Jekyll, Octopress]]></title>
-    <link href="http://sadanapalli.com/2014/03/04/hello-github-pages/"/>
-    <updated>2014-03-04T05:44:24-05:00</updated>
-    <id>http://sadanapalli.com/2014/03/04/hello-github-pages</id>
-    <content type="html"><![CDATA[<p>My site is hosted on <a href="http://pages.github.com">Github Pages</a> and it is powered by <a href="http://octopress.org/">Octopress</a>/<a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p>
-
-
-
-
-<p>Earlier I have used <a href="http://www.wordpress.org">Wordpress</a> and <a href="http://www.blogger.com">Blogger</a> platforms to power my sites/blogs. I am attracted by the prospect of using Octopress/Jekyll/Github due to few factors (which I will explain in a separate post).</p>
-
-
-
-
-<h2>Github Pages</h2>
-
-
-<p><a href="http://pages.github.com">Github Pages</a> are public web pages for users, organizations, and repositories, that are freely hosted on GitHub’s github.io domain or on a custom domain name of your choice. GitHub Pages are powered by Jekyll behind the scenes, so in addition to supporting regular HTML content, they’re also a great way to host your Jekyll-powered website for free.</p>
-
-
-
-
-<h2>Jekyll</h2>
-
-
-<p><a href="http://jekyllrb.com">Jekyll</a> is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
-
-
-
-
-<h2>Octopress</h2>
-
-
-<p><a href="http://octopress.org/">Octopress</a> is a static blogging framework built on top of Jekyll, which makes it much easier to manage Jekyll-powered websites.</p>
-
-
-
-
-<p>I will cover the details of the Octopress setup, Blogging experience and factors for considering Octopress/Github Pages in separate post(s).</p>
-
-
-<p></p>
-
-<p>Happy Blogging!</p>
-
-
-<p></p>
 ]]></content>
   </entry>
   
