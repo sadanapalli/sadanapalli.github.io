@@ -4,7 +4,7 @@
   <title><![CDATA[Pradeep Sadanapalli]]></title>
   <link href="http://sadanapalli.com/atom.xml" rel="self"/>
   <link href="http://sadanapalli.com/"/>
-  <updated>2015-06-21T18:20:27-04:00</updated>
+  <updated>2015-06-21T19:05:30-04:00</updated>
   <id>http://sadanapalli.com/</id>
   <author>
     <name><![CDATA[Pradeep Sadanapalli]]></name>
@@ -41,15 +41,65 @@
 
 <blockquote><p>NOTE: A Master-level exam for AWS Certified Solutions Architect is on the roadmap</p></blockquote>
 
-<p>At work, we are aggressively moving towards Public Cloud. As part of those efforts, I have attended the AWS Training on &ldquo;Advanced Architecting on AWS&rdquo; and &ldquo;Systems Operations on AWS&rdquo; 3-day courses. I had decided to take the &ldquo;AWS Certified Solutions Architect&rdquo; exam and gave myself 3-weeks to prepare for it.</p>
+<p>AWS continues to be the leader in Public Cloud Computing Services market and AWS certifications are widely recognized in the industry. In order to learn the nitty-gritties of all AWS services, I had decided to take the AWS certification exams.</p>
 
-<p>I have taken the exam on 06/15/2015 and passed with 85%. The exam had 60 questions to be completed in 80 mins. I found the exam to be very challenging as the exam had mostly all scenario-based questions which tested one&rsquo;s comprehensive knowledge to configure various AWS services to be able to solve different usecases.</p>
+<p>Being already a Senior Solutions Architect, I wanted to attempt the &ldquo;AWS Certified Solutions Architect &ndash; Associate&rdquo; exam first and gave myself 3-weeks to prepare for it. The AWS Certified Solutions Architect – Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform.</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="left"> Certification Name   </th>
+<th align="left"> AWS Certified Solutions Architect &ndash; Associate </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td align="left"> Prerequisites        </td>
+<td align="left"> None                                          </td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> Recommended Courses  </td>
+<td align="left"> Architecting on AWS                           </td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> No. of questions     </td>
+<td align="left"> 60 multiple-choice multiple-answer questions  </td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> Total exam duration  </td>
+<td align="left"> 80 minutes                                    </td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> Exam Registration Fee</td>
+<td align="left"> $150 per sitting                              </td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> Exam Administrator   </td>
+<td align="left"> <a href="https://webassessor.com/">Kryterion</a>         </td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> Practice Exam Fee    </td>
+<td align="left"> $20                                           </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>I have taken the exam on 06/15/2015 and passed with 85%. I honestly felt 3-weeks was not quite enough time to deep dive into all the topics the way I wanted. I found the exam to be very challenging as the exam had mostly all scenario-based questions which tested one&rsquo;s comprehensive knowledge to configure various AWS services to be able to solve different usecases.</p>
 
 <p>What I liked the most about this exam is that it was not like read &amp; memorize some documentation and answer straight-forward questions. Hands-on experience and exposure to almost all of the AWS services are required to be able to face this exam. That &rsquo;s what makes AWS exams challenging and hence desirable to have on one&rsquo;s resume.</p>
 
 <p>Below are some key things to know and practice until comfortable before sitting for the exam.</p>
 
-<ul>
+<ol>
 <li>Configuring a custom VPC and troubleshooting along with Security in VPC</li>
 <li>Pay lot of attention to all aspects VPC..very important</li>
 <li>Private vs Public Subnets, Security Groups vs Network ACLs, NAT instances, Internet Gateway, Storage Gateway, Virtual Private Gateway, Endpoint for S3, Life-cycle policies and Glacier</li>
@@ -63,17 +113,17 @@
 <li>IAM Users/Groups/Roles, Groups vs Roles, Policies, Service-based Roles, AD Intagration, Security</li>
 <li>Security, Security, Security</li>
 <li>Practice, Practie, Practice</li>
-</ul>
+</ol>
 
 
 <p>Below are few points that will help towards preparation for the exam.</p>
 
-<ul>
+<ol>
 <li><p><strong>AWS Free Tier</strong></p>
 
-<p>  The <a href="http://aws.amazon.com/free/">AWS Free Tier</a> is designed to enable you to get hands-on experience with AWS at no charge for 12 months after you sign up.</p>
+<p> The <a href="http://aws.amazon.com/free/">AWS Free Tier</a> is designed to enable you to get hands-on experience with AWS at no charge for 12 months after you sign up.</p>
 
-<p>  After creating your AWS account you can use any of the 21 products and services, listed below, for free within certain usage limits.</p></li>
+<p> After creating your AWS account you can use any of the 21 products and services, listed below, for free within certain usage limits.</p></li>
 <li><p>Read all the FAQs at <a href="http://aws.amazon.com/faqs/">http://aws.amazon.com/faqs/</a></p>
 
 <ul>
@@ -83,17 +133,17 @@
 <li><p>Read few AWS whitepapers at <a href="http://aws.amazon.com/whitepapers/">http://aws.amazon.com/whitepapers/</a> &ndash; at least the below</p>
 
 <ul>
-<li>  AWS Security Whitepaper</li>
-<li>  AWS Storage Options</li>
-<li>  AWS Amazon VPC Connectivity Options</li>
-<li>  Managing Your AWS Infrastructure at Scale</li>
+<li>AWS Security Whitepaper</li>
+<li>AWS Storage Options</li>
+<li>AWS Amazon VPC Connectivity Options</li>
+<li>Managing Your AWS Infrastructure at Scale</li>
 </ul>
 </li>
 <li><p>Take one of the online ondemand courses on &ldquo;AWS Certified Solutions Architect&rdquo; on udemy.com</p></li>
 <li><p>Watch AWS re-invent deep dive videos on some key topics</p></li>
 <li><p>Read the exam blueprint and also answer the sample questions provided</p></li>
 <li><p>Take the AWS Practice Exam (costs $20) if you feel required</p></li>
-</ul>
+</ol>
 
 
 <p>Next, I am planning to take the other AWS exams &ndash; Developer, SysOps and CSA Professional. I will share my experience as I complete those exams.</p>
